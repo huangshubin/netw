@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/built-all.css">
+
+</head>
+
+<body class="container">
+    <h1>Contact Us</h1>
+    <form action="apimessage" method="post" id="msg_form">
+        <div class="form-group">
+            <label for="name">
+                User Name:
+            </label>
+            <input type="text" name="name" class="form-control" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone_number">Phone Number:</label>
+            <input type="text" name="phone_number" class="form-control" placeholder="Enter Your Phone Number" ,required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea name="message" placeholder="Enter Your Message" rows="5" class="form-control" required></textarea>
+        </div>
+        <button class="btn btn-primary" id="btn" type="submit">Submit</button>
+    </form>
+    <script  src="js/built-all.js"></script>
+<script type="text/javascript">
+
+$(document).ready(
+        function()
+        {
+
+            $("#msg_form").submit(function(e) {
+
+                var url =getBaseUrl()+ "apimessage"; // the script where you handle the form input.
+
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: $("#msg_form").serialize(), // serializes the form's elements.
+                    success: function(data)
+                    {
+                        var content="";
+                        if(data.success)
+                        {
+                            content+="send message success";
+                        }
+                        else {
+                            $.each(data.errors,function(key,val){
+                                $.each(val,function(index,msg){
+
+                                    content+=msg+'\n';
+                                });
+
+                            });
+                        }
+
+                        alert(content); // show response from the php script.
+                    },
+                    error:function(data)
+                    {
+                     alert(data.statusText);
+                    }
+                });
+
+               e.preventDefault(); // avoid to execute the actual submit of the form.
+            });
+
+        }
+
+);
+
+
+    function getBaseUrl() {
+        var re = new RegExp(/^.*\//);
+        return re.exec(window.location.href);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.valign
+{
+    display:table-cell;
+    vertical-align:middle;
+
+}
+.valign-container
+{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.valign-content
+{
+    display:inline-block;
+    margin:0 0;
+    width:100%;
+}
+.bold
+{
+    font-weight: bold;
+}
+@media (max-width: 992px) {
+
+    [class*="col-"]{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .sidebar{
+        z-index: 1000;
+        position: fixed;
+        width: 50%;
+        top:0;
+        height: 100%;
+        overflow-y: auto;
+        background: #000;
+        opacity: 0.6;
+        left:-50%;
+
+    }
+    .sidebar a
+    {
+        color:#ffffff !important;
+    }
+    .sidebar.collapse
+    {
+        left:-50%;
+    }
+    .sidebar.collapsing {
+        overflow: hidden;
+        -webkit-transition-property: left, visibility;
+        -o-transition-property: left, visibility;
+        transition-property: left, visibility;
+    }
+    .sidebar.collapse.in {
+        left:0;
+    }
+}

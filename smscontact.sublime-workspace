@@ -1,0 +1,1504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"timest",
+				"timestamps	(2014_10_12_000000_create_users_table.php)"
+			],
+			[
+				"midd",
+				"middle	(500.blade.php)"
+			],
+			[
+				"ver",
+				"vertical-align	(500.blade.php)"
+			],
+			[
+				"inline",
+				"inline-block	(500.blade.php)"
+			],
+			[
+				"posi",
+				"possible"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"sub",
+				"submit	(bootstrap-all.css)"
+			],
+			[
+				"btn",
+				"btn-primary	(bootstrap-theme.css)"
+			],
+			[
+				"m",
+				"multiple	Attr"
+			],
+			[
+				"re",
+				"required	Attr"
+			],
+			[
+				"min",
+				"min-height	(bootstrap-all.css)"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"insp",
+				"inspiring"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"d",
+				"doesntHave	(_ide_helper.php)"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/contact.blade.php",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2016_05_17_063543_create_contact_table.php",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+			"settings":
+			{
+				"buffer_size": 26882,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+			"settings":
+			{
+				"buffer_size": 93957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Support/Str.php",
+			"settings":
+			{
+				"buffer_size": 18652,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_ide_helper.php",
+			"settings":
+			{
+				"buffer_size": 343019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+			"settings":
+			{
+				"buffer_size": 19470,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 784.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"x",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpfmt",
+				"phpfmt: format now"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"sub",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"php co",
+				"PHP Coding Standards Fixer: Fix this file (PHP Code Beautifier)"
+			],
+			[
+				"uninst",
+				"Snippet: Function Signature"
+			],
+			[
+				"php",
+				"PHP Coding Standards Fixer: Fix this file (PHP Code Beautifier)"
+			],
+			[
+				"phpcs",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"phps",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"new f",
+				"File: New View into File"
+			],
+			[
+				"svn se",
+				"HypnotoadSVN: Settings - Default"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"remove pae",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"Package Control:l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control:re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: add repository",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			]
+		],
+		"width": 976.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+			"npm",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"npm",
+			"cmd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/phpproject/smscontact",
+		"/D/phpproject/smscontact/app/Http",
+		"/D/phpproject/smscontact/app/Http/Controllers",
+		"/D/phpproject/smscontact/database/migrations",
+		"/D/phpproject/smscontact/public/css",
+		"/D/phpproject/smscontact/public/js",
+		"/D/phpproject/smscontact/resources/assets",
+		"/D/phpproject/smscontact/resources/lang",
+		"/D/phpproject/smscontact/resources/lang/en",
+		"/D/phpproject/smscontact/resources/views",
+		"/D/phpproject/smscontact/resources/views/errors",
+		"/D/phpproject/smscontact/vendor",
+		"/D/phpproject/smscontact/vendor/laravel",
+		"/D/phpproject/smscontact/vendor/laravel/framework",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Database",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Database/Eloquent"
+	],
+	"file_history":
+	[
+		"/D/phpproject/smscontact/app/Http/routes.php",
+		"/D/phpproject/smscontact/resources/views/errors/500.blade.php",
+		"/D/phpproject/smscontact/resources/views/errors/404.blade.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/AliasLoader.php",
+		"/D/phpproject/smscontact/vendor/symfony/http-foundation/Response.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/D/phpproject/smscontact/vendor/symfony/http-foundation/Request.php",
+		"/D/phpproject/smscontact/resources/assets/app.css",
+		"/D/phpproject/smscontact/.env",
+		"/D/phpproject/smscontact/config/database.php",
+		"/D/phpproject/smscontact/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/D/phpproject/smscontact/config/app.php",
+		"/D/phpproject/smscontact/bootstrap/app.php",
+		"/D/phpproject/smscontact/gulpfile.js",
+		"/D/phpproject/smscontact/public/js/bootstrap.js",
+		"/D/phpproject/smscontact/public/css/bootstrap-all.css",
+		"/D/phpproject/smscontact/resources/lang/en/validation.php",
+		"/D/phpproject/smscontact/app/Http/Controllers/ContactController.php",
+		"/D/phpproject/smscontact/resources/views/layouts/app.blade.php",
+		"/D/phpproject/smscontact/app/Providers/RouteServiceProvider.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Config/Repository.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+		"/D/phpproject/smscontact/database/migrations/2016_05_17_063543_create_contact_table.php",
+		"/D/phpproject/smscontact/resources/assets/sass/app.scss",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/phpproject/smscontact/.idea/modules.xml",
+		"/D/phpproject/smscontact/resources/views/welcome.blade.php",
+		"/D/phpproject/smscontact/resources/views/errors/503.blade.php",
+		"/D/phpproject/smscontact/public/contact.html",
+		"/D/phpproject/smscontact/resources/assets/bootstrap/Gruntfile.js",
+		"/D/phpproject/smscontact/resources/assets/bootstrap/dist/js/npm.js",
+		"/D/phpproject/smscontact/resources/assets/bootstrap/dist/js/bootstrap.min.js",
+		"/D/phpproject/smscontact/resources/assets/bootstrap/dist/css/bootstrap.css",
+		"/D/phpproject/smscontact/package.json",
+		"/D/phpproject/smscontact/.idea/misc.xml",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/User/phpcbf.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/phpproject/smscontact/app/Http/Controllers/Auth/AuthController.php",
+		"/D/phpproject/smscontact/app/Console/Commands/Inspire.php",
+		"/D/phpproject/smscontact/node_modules/clone/test.html",
+		"/D/phpproject/smscontact/app/User.php",
+		"/D/phpproject/smscontact/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Console/Command.php",
+		"/D/phpproject/smscontact/node_modules/browserify/test/json.js",
+		"/D/phpproject/smscontact/node_modules/svgo/lib/svgo/js2svg.js",
+		"/D/phpproject/smscontact/node_modules/bs-recipes/recipes/gulp.task.sequence/app/index.html",
+		"/D/phpproject/smscontact/vendor/symfony/routing/Route.php",
+		"/D/phpproject/smscontact/node_modules/insert-css/example/style.css",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/User/phpcs.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/Phpcs/phpcs.sublime-settings",
+		"/C/Users/shubin/AppData/Roaming/Sublime Text 3/Packages/HypnotoadSVN/HypnotoadSVN.sublime-settings",
+		"/D/phpproject/smscontact/.idea/blade.xml",
+		"/D/phpproject/smscontact/app/Http/Controllers/Auth/PasswordController.php",
+		"/D/phpproject/smscontact/app/Http/Middleware/Authenticate.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/D/phpproject/smscontact/demo.json",
+		"/D/phpproject/smscontact/_ide_helper.php",
+		"/D/phpproject/smscontact/public/de.html",
+		"/D/phpproject/smscontact/app/Http/Controllers/Controller.php",
+		"/D/phpproject/smscontact/node_modules/bootstrap/dist/css/bootstrap-theme.css",
+		"/D/phpproject/smscontact/app/Providers/AuthServiceProvider.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/AuthServiceProvider.php",
+		"/D/phpproject/smscontact/de",
+		"/D/phpproject/smscontact/s",
+		"/c/users/shubin/appdata/local/temp/sublime-svn-1463214893/SVN",
+		"/D/phpproject/smscontact/config/broadcasting.php",
+		"/D/phpproject/smscontact/.env.example",
+		"/D/phpproject/smscontact/config/session.php",
+		"/D/phpproject/smscontact/config/filesystems.php",
+		"/D/phpproject/smscontact/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/D/phpproject/smscontact/public/.htaccess",
+		"/D/phpproject/smscontact/public/index.php",
+		"/D/phpproject/smscontact/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php",
+		"/D/phpproject/smscontact/public/web.config"
+	],
+	"find":
+	{
+		"height": 64.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"IdeHelperServiceProvider",
+			"JavaScript requires jQuery",
+			"  'use strict'",
+			".btn-primary.focus",
+			"   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075)",
+			"btn-default",
+			"max",
+			"create",
+			"phpcs_php_prefix_path",
+			"php",
+			"tags",
+			"Tags",
+			"tags"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/contact.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5861,
+								5861
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3999.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "database/migrations/2016_05_17_063543_create_contact_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9779,
+								9789
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 93957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78418,
+								78424
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 88688.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "vendor/laravel/framework/src/Illuminate/Support/Str.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10505,
+								10511
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_ide_helper.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268976,
+								268976
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 261451.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19282,
+								19282
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 23371.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.svn-output":
+	{
+		"height": 186.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "smscontact.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"blure",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php"
+			],
+			[
+				"",
+				"config\\app.php"
+			],
+			[
+				"create",
+				"database\\migrations\\2016_05_17_063543_create_contact_table.php"
+			],
+			[
+				"config/app",
+				"config\\app.php"
+			],
+			[
+				"data",
+				"config\\database.php"
+			],
+			[
+				"layouts/app",
+				"resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				"app",
+				"bootstrap\\app.php"
+			],
+			[
+				"contact",
+				"resources\\views\\contact.blade.php"
+			],
+			[
+				"bootstr",
+				"public\\css\\bootstrap-all.css"
+			],
+			[
+				"route",
+				"app\\Http\\routes.php"
+			],
+			[
+				"contactco",
+				"app\\Http\\Controllers\\ContactController.php"
+			],
+			[
+				"rou",
+				"app\\Http\\routes.php"
+			],
+			[
+				"routes",
+				"app\\Providers\\RouteServiceProvider.php"
+			],
+			[
+				"blade",
+				"resources\\views\\contact.blade.php"
+			],
+			[
+				".js",
+				"gulpfile.js"
+			],
+			[
+				"control",
+				"app\\Http\\Controllers\\AppController.php"
+			],
+			[
+				"home",
+				"app\\Http\\Controllers\\HomeController.php"
+			],
+			[
+				"authcontro",
+				"app\\Http\\Controllers\\Auth\\AuthController.php"
+			],
+			[
+				"controllerau",
+				"app\\Http\\Controllers\\Auth\\AuthController.php"
+			],
+			[
+				"bootst",
+				"node_modules\\bootstrap\\dist\\css\\bootstrap.css"
+			],
+			[
+				".html",
+				"node_modules\\clone\\test.html"
+			],
+			[
+				".css",
+				"node_modules\\insert-css\\example\\style.css"
+			],
+			[
+				"js",
+				"node_modules\\svgo\\lib\\svgo\\js2svg.js"
+			],
+			[
+				"json",
+				"node_modules\\browserify\\test\\json.js"
+			],
+			[
+				"authco",
+				"app\\Http\\Controllers\\Auth\\AuthController.php"
+			],
+			[
+				"passwo",
+				"app\\Http\\Controllers\\Auth\\PasswordController.php"
+			],
+			[
+				"passw",
+				"app\\Http\\Controllers\\Auth\\PasswordController.php"
+			],
+			[
+				"roue",
+				"app\\Http\\routes.php"
+			],
+			[
+				"index",
+				"public\\index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"restore_index":
+			{
+				"431":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"432":
+				{
+					"group": 0,
+					"index": 8
+				},
+				"433":
+				{
+					"group": 0,
+					"index": 9
+				},
+				"439":
+				{
+					"group": 0,
+					"index": 10
+				},
+				"441":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"442":
+				{
+					"group": 0,
+					"index": 13
+				},
+				"443":
+				{
+					"group": 0,
+					"index": 18
+				},
+				"444":
+				{
+					"group": 0,
+					"index": 11
+				},
+				"445":
+				{
+					"group": 0,
+					"index": 12
+				},
+				"446":
+				{
+					"group": 0,
+					"index": 14
+				},
+				"447":
+				{
+					"group": 0,
+					"index": 17
+				},
+				"448":
+				{
+					"group": 0,
+					"index": 19
+				},
+				"449":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"450":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"451":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"452":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"453":
+				{
+					"group": 0,
+					"index": 6
+				},
+				"454":
+				{
+					"group": 0,
+					"index": 7
+				},
+				"455":
+				{
+					"group": 0,
+					"index": 15
+				},
+				"456":
+				{
+					"group": 0,
+					"index": 16
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 566.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
