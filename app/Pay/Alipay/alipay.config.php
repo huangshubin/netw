@@ -1,0 +1,20 @@
+<?php
+return [
+    'partner'=>'2088012542492700',
+    'seller_id'=>'2088012542492700',
+    'private_key_path'=>dirname(__FILE__).'/key/rsa_private_key.pem',
+    'ali_public_key_path'=>dirname(__FILE__) .'key/alipay_public_key.pem',
+    'notify_url'=>url('/').'/smscontact/paynotify',
+    'return_url'=>url('/').'/smscontact/product',
+    'sign_type'=>'RSA',
+    'input_charset'=>'utf-8',
+    'cacert'=>getcwd().'\\cacert.pem',
+    'transport'=>'http',
+    'payment_type'=>'1',
+    'service'=>'create_direct_pay_by_user',
+    'anti_phishing_key'=>'',
+    'exter_invoke_ip'=>'',
+    'alipay_gateway'=>'https://mapi.alipay.com/gateway.do',
+    'https_verify_url'=>'ttps://mapi.alipay.com/gateway.do?service=notify_verify&',
+    'http_verify_url'=>'http://notify.alipay.com/trade/notify_query.do?',
+];

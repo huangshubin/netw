@@ -158,6 +158,8 @@ return [
 
 		Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 		Barryvdh\Debugbar\ServiceProvider::class,
+
+		App\Pay\PayProvider::class,
 	],
 
 	/*
@@ -204,6 +206,8 @@ return [
 		'Validator' => Illuminate\Support\Facades\Validator::class,
 		'View' => Illuminate\Support\Facades\View::class,
 		'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
+		'Pay'=>App\Pay\PayGateway::class,
 
 	],
 

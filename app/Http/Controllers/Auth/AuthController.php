@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -72,5 +73,12 @@ class AuthController extends Controller
         $user->save();
 
         return $user;
+    }
+    public function autoLogin()
+    {
+        if(Auth::check())
+            return redirect('/');
+
+        return view('auth.autologin');
     }
 }
