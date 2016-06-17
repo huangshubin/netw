@@ -22,6 +22,8 @@ Route::get('password/reset/{token?}', 'Auth\PasswordController@showResetForm')->
 Route::post('password/reset', 'Auth\PasswordController@reset')->name('pwdresets');
 Route::get('password/email', 'Auth\PasswordController@getEmail');
 Route::post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
+Route::get('/autologin',['as'=>'auth.autologin','uses'=>'Auth\AuthController@autoLogin']);
+Route::post('/paynotify',['as'=>'alipay.notify','uses'=>'AlipayController@payNotify']);
 
 Route::group(['middleware'=>'auth:web'],function (){
 
@@ -37,6 +39,9 @@ Route::group(['middleware'=>'auth:web'],function (){
     Route::get('/message/manage',['as'=>'message.manage','uses'=>'MessageController@manage']);
     Route::get('/message/{message}/delete',['as'=>'message.delete','uses'=>'MessageController@showDelete'])->where('message','[0-9]+');
     Route::delete('/message/{message}/delete',['as'=>'message.delete','uses'=>'MessageController@delete'])->where('message','[0-9]+');
+
+    Route::get('/product',['as'=>'product.show','uses'=>'AlipayController@show']);
+    Route::post('/pay',['as'=>'alipay.pay','uses'=>'AlipayController@pay']);
 
     Route::get("/profile",['as'=>'user.profile','uses'=>'UserController@profile']);
 

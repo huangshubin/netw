@@ -11,5 +11,11 @@
       <schema-pattern>test.*</schema-pattern>
       <default-schemas>test.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - smscontact@localhost [2]" uuid="b8e4ca97-fad3-4bf7-bd2c-f896f962ff95">
+      <secret-storage>memory</secret-storage>
+      <user-name>shubin</user-name>
+      <schema-pattern>smscontact.*</schema-pattern>
+      <default-schemas>smscontact.*</default-schemas>
+    </data-source>
   </component>
 </project>

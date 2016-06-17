@@ -48,6 +48,12 @@
                             Message Management
                         </a>
                     </li>
+                    <li>
+
+                        <a  href="{{ url('/product') }}">
+                            Alibaba Pay
+                        </a>
+                    </li>
                  @can('view',ENTITY_USER)
 
                     <li>
@@ -85,7 +91,7 @@
 
 @yield('content')
 
-<script type="application/javascript" src="{{asset('js/built-all.js')}}"/>
+<script type="application/javascript" src="{{asset('js/built-all.js')}}"></script>
 <script type="application/javascript">
     @yield('scripts')
 </script>

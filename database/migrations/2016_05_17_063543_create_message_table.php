@@ -10,6 +10,7 @@ class CreateMessageTable extends Migration {
 	 * @return void
 	 */
 	public function up() {
+		
 		Schema::create('messages', function (Blueprint $table) {
 			$table->increments('id');
 			$table->string('name');
